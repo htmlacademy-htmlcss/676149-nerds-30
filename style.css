@@ -148,11 +148,12 @@
   .footer-social{
     list-style: none;
   }
-/*
+
 .filter{
-  display: grid;
-  grid-template-columns: 260px 1fr;
-}*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
   .options{
   list-style: none;
@@ -179,9 +180,14 @@
   display: grid;
   grid-template-columns: min-content 1fr;
   column-gap: 140px;
-  outline: 5px yellow;
-  outline-offset: -5px;
+  
 }
+
+.shape{
+  position: relative;
+  top: 10px;
+}
+
 .checkbox-list, 
 .radio-list{
   list-style: none;
@@ -193,6 +199,11 @@
   grid-template-columns: min-content 1fr;
   column-gap: 140px;
 }*/
+
+.website-item{
+  outline: 5px red;
+  outline-offset: -5px;
+}
 
 .button{
   font-size:16px;
