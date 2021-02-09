@@ -54,10 +54,12 @@
 
 
 .main-navigation {
+  
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   font-size: 16px;
   line-height: 30px;
+  font-weight: 500;
   color: var(--basic-black);
   text-transform: uppercase;
   background-color: #EEEEEE;
@@ -98,8 +100,6 @@
   }
 
   .product-list{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     gap: 100px;
     list-style: none;
     margin-top: 80px;
@@ -155,7 +155,7 @@
 }*/
 
   .options{
-  list-style:none;
+  list-style: none;
 }
 
 /* For font */
@@ -171,28 +171,33 @@
   line-height: 18px;
   text-transform: uppercase;
   weight:400;
+  list-style: none;
 }
 
 
 .catalog{
   display: grid;
-  grid-template-columns: 260px 360px 360px;
-  gap: 40px;
+  grid-template-columns: min-content 1fr;
+  column-gap: 140px;
+  outline: 5px yellow;
+  outline-offset: -5px;
 }
 .checkbox-list, 
 .radio-list{
   list-style: none;
 }
 
+/*
 .websites{
   display: grid;
-  grid-template-columns: 360px 360px;
-  gap: 40px;
-}
+  grid-template-columns: min-content 1fr;
+  column-gap: 140px;
+}*/
 
 .button{
   font-size:16px;
   line-height: 18px;
+  font-weight: 500;
   color:#FFFFFF;
   background-color:var(--basic-red);
 }
