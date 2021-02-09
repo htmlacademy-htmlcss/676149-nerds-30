@@ -100,6 +100,8 @@
   }
 
   .product-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 100px;
     list-style: none;
     margin-top: 80px;
@@ -195,10 +197,9 @@
 
 /*
 .websites{
-  display: grid;
-  grid-template-columns: min-content 1fr;
-  column-gap: 140px;
-}*/
+  
+}
+*/
 
 .website-item{
   outline: 5px red;
